@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lsb.mapper.RoomMapper">
+    <resultMap id="roomResultMap" type="room">
+        <result column="borrow_date" property="borrowDate"></result>
+        <result column="time_slot" property="timeSlot"></result>
+        <result column="room_name" property="roomName"></result>
+    </resultMap>
+</mapper>
